@@ -30,7 +30,7 @@ int main() {
                        "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell"
                        "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell"
                        "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell";
-    const char* res_char = ver9.c_str();
+    const char* res_char = ver8.c_str();
     Apa::writeBMP(res_char);
     return 0;
 }
