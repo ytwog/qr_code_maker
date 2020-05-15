@@ -2,35 +2,28 @@
 
 int main() {
     std::cout << "Writing to PNG-file:" << std::endl;
+    std::string num1 = "21523656";
+    std::string num2 = "21523656443264647343464575453253653357348";
+
     std::string ver1 = "Hello";
-    std::string ver2 = "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello"
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell";
+    std::string ver2 = "HelloHelloHelloHelloHelloHelloHelloHello";
     std::string ver3 = ver2 +
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello"
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell";
+                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloH";
     std::string ver4 = ver3 +
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello"
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell"
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell"
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell";
+                       "HelloHelloHelloHelloHe";
     std::string ver5 = ver4 +
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell"
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell";
+                       "HelloHelloHelloHelloHelloHelloHell";
     std::string ver6 = ver5 +
                        "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell"
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell"
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell";
+                       "HelloHelloHe";
     std::string ver7 = ver6 +
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell"
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell";
+                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloH";
     std::string ver8 = ver7 +
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell"
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell";
+                       "HelloHelloHelloHelloHelloHelloHelloH";
     std::string ver9 = ver8 +
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell"
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell"
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell";
-    const char* res_char = ver8.c_str();
+                       "HelloHelloHelloHelloHelloHelloHelloHelloHellHelloHell"
+                       "oHelloHelloHelloHelloHelloHelloHell";
+    const char* res_char = num1.c_str();
     Apa::writeBMP(res_char);
     return 0;
 }
