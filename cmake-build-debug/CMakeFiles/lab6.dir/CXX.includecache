@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Abc/docsx/3 course/ti/lab6/lab6.cpp
-lab6.h
-C:/Abc/docsx/3 course/ti/lab6/lab6.h
-
 C:/Abc/docsx/3 course/ti/lab6/lab6.h
 cstdio
 -
@@ -17,6 +13,14 @@ string
 -
 iostream
 -
+math.h
+-
 utility
 -
+vector
+-
+
+C:/Abc/docsx/3 course/ti/lab6/main.cpp
+lab6.h
+C:/Abc/docsx/3 course/ti/lab6/lab6.h
 
