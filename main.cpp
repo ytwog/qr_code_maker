@@ -3,27 +3,44 @@
 int main() {
     std::cout << "Writing to PNG-file:" << std::endl;
     std::string num1 = "21523656";
-    std::string num2 = "21523656443264647343464575453253653357348";
+    std::string num2 = "2152365644326464738312312123321312123123123213213213123";
+    std::string num3 = "2152365644326464734346457545325365335734812312312312321"
+                       "213123123211";
+    std::string num4 = "2152365644326464734346457545325365335734812312312312321"
+                       "2131231232112321312312312333323322323212312312311";
+    std::string num5 = "2152365644326464734346457545325365335734821243242322"
+                       "2152365644326464734346457545325365335734821243242322"
+                       "4214124124214124213452131232131323213213123131231231";
+    std::string num6 = "2152365644326464734346457545325365335734821243242322345"
+                       "2152365644326464734346457545325365335734821243242322"
+                       "4214124124214124213452131232131323213213123131231231"
+                       "4214124124214124213452131232131323213213123131231231"
+                       "21523656443264647343464575453253653357";
+    std::string num7 = num6 + "215236564432646473421321321312332123312"
+                              "32131232131232132133464575453253653357";
 
-    std::string ver1 = "Hello";
-    std::string ver2 = "HelloHelloHelloHelloHelloHelloHelloHello";
-    std::string ver3 = ver2 +
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloH";
+    std::string ver1 = "HELLO";
+    std::string ver2 = "HELLOHELLOHELLOHELLOHELLOHELLOHELLO";
+    std::string ver3 = "HELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLO";
     std::string ver4 = ver3 +
-                       "HelloHelloHelloHelloHe";
+                       "HELLOHELLOHELLOHELLO";
     std::string ver5 = ver4 +
-                       "HelloHelloHelloHelloHelloHelloHell";
+                       "HELLOHELLOHELLOHELLOHELLOHELLOHELLO";
     std::string ver6 = ver5 +
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHell"
-                       "HelloHelloHe";
+                       "HELLOHELLOHELLO";
     std::string ver7 = ver6 +
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHelloH";
+                       "HELLOHELLOHELLOHELLOLOHELLOLOHELLO";
     std::string ver8 = ver7 +
-                       "HelloHelloHelloHelloHelloHelloHelloH";
+                       "HELLOHELLOHELLOHELLOHELLOHELLOHELLO";
     std::string ver9 = ver8 +
-                       "HelloHelloHelloHelloHelloHelloHelloHelloHellHelloHell"
-                       "oHelloHelloHelloHelloHelloHelloHell";
-    const char* res_char = num1.c_str();
+                       "HELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLOHELLO"
+                       "HELLOHELLOHELLOHELLOHELLOHELLOHELLO";
+    std::string custom1 = "EXTREMELY WE PROMOTION REMAINDER EAGERNESS ENJOYMENT"
+                          " AN. HAM HER DEMANDS REMOVAL"
+                          " BROUGHT MINUTER RAISING INVITED GAY.";
+
+    std::string custom2 = "GOOGLE.COM";
+    const char* res_char = custom1.c_str();
     Apa::writeBMP(res_char);
     return 0;
 }

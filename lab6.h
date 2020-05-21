@@ -3,9 +3,12 @@
 #include <cstdio>
 #include <string>
 #include <iostream>
+#include <math.h>
 #include <utility>
+#include <vector>
 
 namespace Apa {
+
     void writeBMP(const char* res);
 
 }
